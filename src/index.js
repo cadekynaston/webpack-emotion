@@ -1,11 +1,7 @@
-const obj = {
-  bruner: 'worthless ):',
-};
+import * as React from 'react'
+import { render } from 'react-dom'
 
-const obj2 = {
-  mike: 'worthwhile?',
-};
+import Button from './components/Button'
 
-const spready = { ...obj, ...obj2 };
+render(<Button />, document.querySelector('#root'))
 
-console.log(spready);
